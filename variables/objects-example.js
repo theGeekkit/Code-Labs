@@ -1,6 +1,6 @@
-let firstName = "John";
-let age = 35;
-let favoriteIceCream = 'Strawberry';
+// let firstName = "John";
+// let age = 35;
+// let favoriteIceCream = 'Strawberry';
 
 let person = {
     firstName: "John",
@@ -8,6 +8,6 @@ let person = {
     favoriteIceCream: 'Strawberry'
 }
 
-console.log(`My name is ${firstname}.`);
-console.log(`My age is ${age}`);
-console.log(`My favorite type pf ice cream is ${favoriteIceCream}`);
+console.log(`My name is ${person.firstName}.`);
+console.log(`My age is ${person.age}`);
+console.log(`My favorite type of ice cream is ${person["favoriteIceCream"]}`);
